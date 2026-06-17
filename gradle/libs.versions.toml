@@ -1,0 +1,98 @@
+[versions]
+agp = "8.13.2"
+kotlin = "2.0.21"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.1"
+lifecycle = "2.8.7"
+coroutines = "1.8.1"
+camerax = "1.4.2"
+faceMesh = "16.0.0-beta3"
+filament = "1.56.0"
+gson = "2.11.0"
+recyclerview = "1.3.2"
+gms = "4.4.4"
+coil = "2.7.0"
+hilt = "2.52"
+ksp = "2.0.21-1.0.28"
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+room = "2.6.1"
+mockito = "5.14.2"
+objenesis = "3.4"
+byteBuddy = "1.15.4"
+benchmark = "1.3.3"
+testRunner = "1.6.2"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+# Mock FilamentInstance trong test :core (BugWalker không đụng tới nó, chỉ cần qua constructor Bug).
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+# Tạo FaceMesh THẬT không qua constructor (cần holder nội bộ) → getAllPoints() là field-read rẻ, đo đúng code.
+objenesis = { group = "org.objenesis", name = "objenesis", version.ref = "objenesis" }
+# Sinh subclass FaceMesh override getAllPoints() (JIT-safe) thay cho type-punning Unsafe.
+byte-buddy = { group = "net.bytebuddy", name = "byte-buddy", version.ref = "byteBuddy" }
+# On-device microbenchmark (androidTest): đo ML Kit detection + Filament setTransform native trên máy thật.
+androidx-benchmark-junit4 = { group = "androidx.benchmark", name = "benchmark-junit4", version.ref = "benchmark" }
+androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "testRunner" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+camera-video = { group = "androidx.camera", name = "camera-video", version.ref = "camerax" }
+camera-effects = { group = "androidx.camera", name = "camera-effects", version.ref = "camerax" }
+
+mlkit-face-mesh = { group = "com.google.mlkit", name = "face-mesh-detection", version.ref = "faceMesh" }
+
+filament-android = { group = "com.google.android.filament", name = "filament-android", version.ref = "filament" }
+filament-gltfio = { group = "com.google.android.filament", name = "gltfio-android", version.ref = "filament" }
+filament-utils = { group = "com.google.android.filament", name = "filament-utils-android", version.ref = "filament" }
+
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+# Coil: load ảnh thumbnail (URL remote) cho lưới chọn bọ.
+coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+
+# MVVM: ViewModel + viewModelScope
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+# Dagger Hilt (DI)
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+
+# Retrofit + OkHttp (API catalog + tải model_zip)
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+# Room (SSOT local DB)
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+google-service = { id = "com.google.gms.google-services", version.ref = "gms" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

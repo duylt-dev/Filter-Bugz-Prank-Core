@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bug Filter Prank</string>
+
+    <!-- Màn chọn bọ -->
+    <string name="select_bug_title">Chọn con bọ</string>
+    <string name="bug_thumbnail">Ảnh con bọ</string>
+    <string name="bugs_empty">Không có con bọ nào</string>
+    <string name="downloading_bug">Đang tải con bọ…</string>
+
+    <!-- Màn camera -->
+    <string name="cd_record">Quay video</string>
+    <string name="cd_flip_camera">Đổi camera trước/sau</string>
+    <string name="status_initializing">Đang khởi tạo…</string>
+    <string name="status_camera_ready">Camera sẵn sàng</string>
+    <string name="status_recording">Đang quay…</string>
+    <string name="status_no_face">Không thấy khuôn mặt</string>
+    <string name="status_face_detected">Đã nhận diện mặt: %1$d điểm</string>
+    <string name="record_error">Lỗi quay: %1$d</string>
+    <string name="record_saved">Đã lưu: %1$s</string>
+
+    <!-- Quyền & lỗi -->
+    <string name="permission_camera_required">Cần quyền Camera để dùng filter</string>
+    <string name="permission_camera_missing">Thiếu quyền Camera</string>
+    <string name="download_failed">Tải con bọ thất bại: %1$s</string>
+    <string name="error_load_catalog">Lỗi tải danh sách bọ</string>
+    <string name="error_unknown">Đã xảy ra lỗi</string>
+</resources>

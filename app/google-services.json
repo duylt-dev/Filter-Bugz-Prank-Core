@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "336711502317",
+    "project_id": "fir-technologies",
+    "storage_bucket": "fir-technologies.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336711502317:android:0b53d0899fda16e5693fe4",
+        "android_client_info": {
+          "package_name": "com.piontech.bugfilter.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByUPvSq6fJQ9Q-VcOjzDo3vdV1GVWcvyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2504 @@
+[
+  {
+    "id": "c35c2a90-4f7f-4053-8f55-8c5dc99dbe83",
+    "name": "Spider 1",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090583_Frame3.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-14/1763093632_hi-fi-spider.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 1.5,
+        "isRandomPath": true,
+        "nameModel": "hi-fi-spider.glb",
+        "scale": 0.5,
+        "progressPerSecond": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "listPathIndex": [
+              55,
+              285,
+              444,
+              372,
+              352,
+              411,
+              416
+            ]
+          },
+          {
+            "listPathIndex": [
+              55,
+              285,
+              443,
+              353,
+              346,
+              425,
+              267,
+              37
+            ]
+          },
+          {
+            "listPathIndex": [
+              55,
+              285,
+              151,
+              66,
+              124,
+              117,
+              187,
+              192
+            ]
+          },
+          {
+            "listPathIndex": [
+              285,
+              55,
+              53,
+              35,
+              50,
+              187,
+              192
+            ]
+          },
+          {
+            "listPathIndex": [
+              285,
+              55,
+              53,
+              35,
+              50,
+              206,
+              37,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              285,
+              55,
+              151,
+              296,
+              276,
+              372,
+              352,
+              411,
+              416
+            ]
+          },
+          {
+            "listPathIndex": [
+              411,
+              416,
+              430,
+              262,
+              201,
+              211,
+              202,
+              192,
+              187
+            ]
+          },
+          {
+            "listPathIndex": [
+              411,
+              416,
+              430,
+              406,
+              181,
+              43,
+              186,
+              37,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              411,
+              416,
+              436,
+              280,
+              345,
+              383,
+              282,
+              285,
+              55
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              411,
+              352,
+              264,
+              251,
+              293,
+              296,
+              285,
+              55
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              411,
+              352,
+              347,
+              266,
+              426,
+              269,
+              267,
+              37
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              411,
+              423,
+              267,
+              165,
+              205,
+              187,
+              192
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              187,
+              234,
+              34,
+              124,
+              223,
+              55,
+              285
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              187,
+              234,
+              117,
+              101,
+              205,
+              92,
+              37,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              187,
+              206,
+              37,
+              267,
+              426,
+              411,
+              416
+            ]
+          },
+          {
+            "listPathIndex": [
+              187,
+              192,
+              210,
+              194,
+              200,
+              262,
+              430,
+              416,
+              411
+            ]
+          },
+          {
+            "listPathIndex": [
+              187,
+              192,
+              210,
+              194,
+              200,
+              418,
+              273,
+              322,
+              267,
+              37
+            ]
+          },
+          {
+            "listPathIndex": [
+              187,
+              192,
+              186,
+              205,
+              117,
+              124,
+              224,
+              55,
+              285
+            ]
+          },
+          {
+            "listPathIndex": [
+              37,
+              267,
+              426,
+              280,
+              347,
+              345,
+              411,
+              416
+            ]
+          },
+          {
+            "listPathIndex": [
+              37,
+              267,
+              426,
+              280,
+              372,
+              276,
+              282,
+              285,
+              55
+            ]
+          },
+          {
+            "listPathIndex": [
+              37,
+              267,
+              270,
+              273,
+              406,
+              17,
+              182,
+              202,
+              192,
+              187
+            ]
+          },
+          {
+            "listPathIndex": [
+              267,
+              37,
+              203,
+              101,
+              117,
+              234,
+              187,
+              192
+            ]
+          },
+          {
+            "listPathIndex": [
+              267,
+              37,
+              186,
+              43,
+              182,
+              17,
+              406,
+              430,
+              416,
+              411
+            ]
+          },
+          {
+            "listPathIndex": [
+              267,
+              37,
+              206,
+              50,
+              111,
+              124,
+              224,
+              65,
+              55,
+              285
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "hi-fi-spider.glb"
+  },
+  {
+    "id": "2d0ac3c3-4b90-48d8-8d88-49f5fa745430",
+    "name": "Spider 2",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090583_Frame2.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-27/1764235533_spider.zip",
+    "scrip": [
+      {
+        "animIndex": 2,
+        "animSpeed": 1.5,
+        "isRandomPath": true,
+        "nameModel": "spider.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "spider.glb"
+  },
+  {
+    "id": "bdc58d0d-c25e-40da-9b12-bfac7ce9cd78",
+    "name": "Cockroach",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090626_Frame6.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-14/1763094467_cockroach.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 0.9,
+        "isRandomPath": true,
+        "nameModel": "cockroach.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "cockroach.glb"
+  },
+  {
+    "id": "3d0db04b-214a-4f24-934c-93e92f2cb0e1",
+    "name": "Spider 3",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090588_Frame1.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-27/1764235551_wolf_spider_rigged_-_rabidosa_rabida.zip",
+    "scrip": [
+      {
+        "animIndex": 1,
+        "animSpeed": 1,
+        "isRandomPath": true,
+        "nameModel": "wolf_spider_rigged_-_rabidosa_rabida.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "wolf_spider_rigged_-_rabidosa_rabida.glb"
+  },
+  {
+    "id": "2349beea-ce30-451c-87ec-2b4f9a95b941",
+    "name": "Cockroach 2",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-28/1764314366_Frame7.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-25/1764059678_cockroach.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 0.9,
+        "isRandomPath": true,
+        "nameModel": "cockroach.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              107,
+              336,
+              283,
+              368,
+              346,
+              425,
+              391,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              206,
+              50,
+              111,
+              124,
+              53,
+              107,
+              336
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 0,
+        "animSpeed": 0.9,
+        "isRandomPath": true,
+        "nameModel": "cockroach.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              436,
+              364,
+              262,
+              200
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              262,
+              200,
+              194,
+              202,
+              186,
+              167,
+              168
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 0,
+        "animSpeed": 0.9,
+        "isRandomPath": true,
+        "nameModel": "cockroach.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              199,
+              32,
+              210,
+              186,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              416,
+              430,
+              369,
+              199,
+              32
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "cockroach.glb"
+  },
+  {
+    "id": "0b950073-b794-4056-8e77-4c088ed1ea0d",
+    "name": "Ladybug",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090626_Frame4.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-14/1763094585_ladybug_with_animated_walk_cycle_only.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 2.5,
+        "isRandomPath": true,
+        "nameModel": "ladybug_with_animated_walk_cycle_only.glb",
+        "scale": 0.1,
+        "progressPerSecond": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "ladybug_with_animated_walk_cycle_only.glb"
+  },
+  {
+    "id": "df826a18-3e6d-46f7-98b9-494a640a2c6f",
+    "name": "Springtail",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-12-04/1764834229_Frame14.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-12-04/1764846224_springtail.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 2.0,
+        "isRandomPath": true,
+        "nameModel": "springtail.glb",
+        "scale": 0.2,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -0.15
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "springtail.glb"
+  },
+  {
+    "id": "b74eed55-3d43-4007-9a72-82bd8cb6149d",
+    "name": "Arahnid",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-28/1764312988_Frame13.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-28/1764313014_arahnid_multiped(2).zip",
+    "scrip": [
+      {
+        "animIndex": 2,
+        "animSpeed": 2.0,
+        "isRandomPath": true,
+        "nameModel": "arahnid_multiped(2).glb",
+        "scale": 0.1,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              107,
+              336,
+              283,
+              368,
+              346,
+              425,
+              391,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              206,
+              50,
+              111,
+              124,
+              53,
+              107,
+              336
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 2,
+        "animSpeed": 2.0,
+        "isRandomPath": true,
+        "nameModel": "arahnid_multiped(2).glb",
+        "scale": 0.1,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              436,
+              364,
+              262,
+              200
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              262,
+              200,
+              194,
+              202,
+              186,
+              167,
+              168
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 2,
+        "animSpeed": 2.0,
+        "isRandomPath": true,
+        "nameModel": "arahnid_multiped(2).glb",
+        "scale": 0.1,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              199,
+              32,
+              210,
+              186,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              416,
+              430,
+              369,
+              199,
+              32
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "arahnid_multiped(2).glb"
+  },
+  {
+    "id": "00330dfd-d7d5-4575-9a61-ac1f28dd5606",
+    "name": "Rhino Beetle",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-14/1763090626_Frame5.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-27/1764235445_a_rhino_beetle.zip",
+    "scrip": [
+      {
+        "animIndex": 3,
+        "animSpeed": 1.5,
+        "isRandomPath": true,
+        "nameModel": "a_rhino_beetle.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "a_rhino_beetle.glb"
+  },
+  {
+    "id": "90a0a4ca-4b69-4a3c-a017-99c4387289de",
+    "name": "Bee",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-11-28/1764313378_Frame9.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-11-28/1764313419_bee_wee.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 1.0,
+        "isRandomPath": true,
+        "nameModel": "bee_wee.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              107,
+              336,
+              283,
+              368,
+              346,
+              425,
+              391,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              206,
+              50,
+              111,
+              124,
+              53,
+              107,
+              336
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 0,
+        "animSpeed": 1.0,
+        "isRandomPath": true,
+        "nameModel": "bee_wee.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              436,
+              364,
+              262,
+              200
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              262,
+              200,
+              194,
+              202,
+              186,
+              167,
+              168
+            ]
+          }
+        ]
+      },
+      {
+        "animIndex": 0,
+        "animSpeed": 1.0,
+        "isRandomPath": true,
+        "nameModel": "bee_wee.glb",
+        "scale": 0.25,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              199,
+              32,
+              210,
+              186,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              416,
+              430,
+              369,
+              199,
+              32
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "bee_wee.glb"
+  },
+  {
+    "id": "8668c86f-d992-4eac-a9a6-a843c71aed5a",
+    "name": "Lizard",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-12-04/1764834228_Frame10.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-12-04/1764845870_lizard.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 1.0,
+        "isRandomPath": true,
+        "nameModel": "lizard.glb",
+        "scale": 0.4,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "lizard.glb"
+  },
+  {
+    "id": "85f626ca-e8e0-4649-b7d7-defa5916d808",
+    "name": "Arachnid Bug",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-12-04/1764834229_Frame11.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-12-04/1764845983_arachnid_bug.zip",
+    "scrip": [
+      {
+        "animIndex": 1,
+        "animSpeed": 1.0,
+        "isRandomPath": true,
+        "nameModel": "arachnid_bug.glb",
+        "scale": 0.2,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "arachnid_bug.glb"
+  },
+  {
+    "id": "84362ea9-d3a9-4ee8-9478-77658e459bdc",
+    "name": "Flying Hornet",
+    "thumbnail": "https://cdn-uploader.innovatex.one/thumnails/800/store/2025-12-04/1764834229_Frame12.png",
+    "model_zip": "https://cdn-uploader.innovatex.one/data/store/2025-12-04/1764846109_flying_hornet.zip",
+    "scrip": [
+      {
+        "animIndex": 0,
+        "animSpeed": 2.0,
+        "isRandomPath": true,
+        "nameModel": "flying_hornet.glb",
+        "scale": 0.3,
+        "progressPerSecond": 0.25,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "listPath": [
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              207,
+              186,
+              167,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              165,
+              216,
+              213,
+              207,
+              186
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              393,
+              426,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              430,
+              395,
+              428,
+              199,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              199,
+              208,
+              211,
+              214,
+              192,
+              213
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              92,
+              167,
+              168
+            ]
+          },
+          {
+            "delayTimeStartSecond": 0.5,
+            "listPathIndex": [
+              168,
+              167,
+              0,
+              391,
+              427,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              416,
+              434,
+              432,
+              427,
+              376,
+              280,
+              426,
+              267
+            ]
+          },
+          {
+            "listPathIndex": [
+              426,
+              267,
+              37,
+              206,
+              50,
+              147
+            ]
+          },
+          {
+            "listPathIndex": [
+              50,
+              147,
+              192,
+              202,
+              211,
+              208
+            ]
+          },
+          {
+            "listPathIndex": [
+              211,
+              208,
+              428,
+              395,
+              364,
+              288,
+              416,
+              434
+            ]
+          },
+          {
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              207,
+              216,
+              92,
+              37,
+              267,
+              322,
+              416,
+              434
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              207,
+              92,
+              0,
+              393,
+              168
+            ]
+          },
+          {
+            "delayTimeEndSecond": 0.5,
+            "listPathIndex": [
+              192,
+              213,
+              187,
+              50,
+              118,
+              205,
+              206,
+              165,
+              167,
+              168
+            ]
+          }
+        ]
+      }
+    ],
+    "model": "flying_hornet.glb"
+  }
+]
