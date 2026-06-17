@@ -312,8 +312,41 @@ val renderer = FilamentRenderer(debug = BuildConfig.DEBUG)
 ```
 
 ### 2.2 Vẽ landmark + bounding box — `FaceOverlayView`
-Thêm `com.piontech.bugfilter.core.face.FaceOverlayView` vào layout (chồng trên `PreviewView`), rồi feed kết
-quả trong callback của analyzer. Truyền `null` để tắt:
+
+**Bước 1 — Thêm view vào layout XML** (chồng ĐÚNG lên `PreviewView` để toạ độ khớp). Chính view này tạo ra
+`binding.faceOverlay` dùng ở bước 2 (id `faceOverlay` + ViewBinding bật sẵn). Ví dụ trong `ConstraintLayout`:
+
+```xml
+<!-- res/layout/activity_my_camera.xml -->
+<androidx.camera.view.PreviewView
+    android:id="@+id/previewView"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+<!-- Overlay debug: phủ đúng vùng previewView -->
+<com.piontech.bugfilter.core.face.FaceOverlayView
+    android:id="@+id/faceOverlay"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintTop_toTopOf="@id/previewView"
+    app:layout_constraintBottom_toBottomOf="@id/previewView"
+    app:layout_constraintStart_toStartOf="@id/previewView"
+    app:layout_constraintEnd_toEndOf="@id/previewView" />
+```
+
+> Cần bật ViewBinding để có `binding.faceOverlay`/`binding.previewView`:
+> ```kotlin
+> // build.gradle.kts của app
+> android { buildFeatures { viewBinding = true } }
+> ```
+> rồi `val binding = ActivityMyCameraBinding.inflate(layoutInflater); setContentView(binding.root)`.
+> (Không dùng ViewBinding thì thay bằng `findViewById<FaceOverlayView>(R.id.faceOverlay)`.)
+
+**Bước 2 — Feed kết quả trong callback của analyzer.** Truyền `null` để tắt (production):
 
 ```kotlin
 val az = FaceMeshAnalyzer(exec) { result ->
