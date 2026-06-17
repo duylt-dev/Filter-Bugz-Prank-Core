@@ -16,6 +16,16 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // GitHub Packages: để :app tải :core (com.piontech.bugfilter:core) đã publish.
+        // Credential lấy từ gradle.properties (gpr.user/gpr.key) — token cần scope read:packages.
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/duylt-dev/Filter-Bugz-Prank-Core")
+            credentials {
+                username = providers.gradleProperty("gpr.user").orNull
+                password = providers.gradleProperty("gpr.key").orNull
+            }
+        }
     }
 }
 

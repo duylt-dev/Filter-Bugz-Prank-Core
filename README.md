@@ -68,17 +68,63 @@ JAVA_HOME=/path/to/jdk-17 ./gradlew :app:assembleRelease
 
 ### 1.1 Khai báo phụ thuộc
 
+#### Kéo từ GitHub Packages (cho application khác) ⭐
+Dùng bản đã publish (`com.piontech.bugfilter:core`).
+
+**B1. Khai báo repo GitHub Packages** trong `settings.gradle.kts` (vì AndroidX/AGP mặc định
+`FAIL_ON_PROJECT_REPOS`, repo phải đặt ở đây, không đặt trong module):
 ```kotlin
 // settings.gradle.kts
-include(":core")
-
-// app/build.gradle.kts (module application của bạn)
-dependencies {
-    implementation(project(":core"))
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/duylt-dev/Filter-Bugz-Prank-Core")
+            credentials {
+                username = providers.gradleProperty("gpr.user").orNull
+                password = providers.gradleProperty("gpr.key").orNull
+            }
+        }
+    }
 }
 ```
 
-`:core` expose sẵn (qua `api`) 2 thư viện mà bạn cần để nối camera — **không phải khai báo lại**:
+**B2. Đặt credential** (token chỉ cần scope **`read:packages`** để TẢI về). KHÔNG commit token — để ở
+file global `~/.gradle/gradle.properties`:
+```properties
+# ~/.gradle/gradle.properties   (ngoài repo, không bị đẩy lên git)
+gpr.user=<github-username>
+gpr.key=<PAT classic có scope read:packages>
+```
+> GitHub Packages **bắt buộc xác thực kể cả khi tải** (không có token sẽ lỗi 401 lúc resolve). Tạo PAT:
+> *Settings → Developer settings → Personal access tokens → Tokens (classic)* → tick `read:packages`.
+
+**B3. Khai báo dependency** trong app:
+```kotlin
+// app/build.gradle.kts
+dependencies {
+    implementation("com.piontech.bugfilter:core:1.0.0")   // <group>:<artifact>:<version> đã publish
+}
+```
+
+> Phiên bản hiện tại: **`1.0.0`**. Mỗi lần `:core` ra bản mới, đổi version tương ứng.
+
+<details><summary><b>(Maintainer) Publish bản <code>:core</code> mới lên GitHub Packages</b></summary>
+
+1. Tăng `publishVersion` trong `core/build.gradle.kts` (vd `1.0.1`).
+2. Đặt credential publish ở `~/.gradle/gradle.properties` (`gpr.user` + token có scope **`write:packages`**).
+3. Chạy: `JAVA_HOME=<jdk17> ./gradlew :core:publishReleasePublicationToGitHubPackagesRepository`
+4. Bên app: đổi version trong `implementation("com.piontech.bugfilter:core:<version mới>")`.
+
+Cấu hình publish (group/artifact/version + repo `owner/repo`) nằm ở đầu & cuối `core/build.gradle.kts`.
+</details>
+
+#### Chung cho cả 2 cách
+`:core` expose sẵn (qua `api`) 2 thư viện bạn cần để nối camera — **không phải khai báo lại** (Cách B nhận
+qua POM transitively):
 - `androidx.camera:camera-core` (vì `GlSurfaceProcessor` là `SurfaceProcessor`, `FaceMeshAnalyzer` là `ImageAnalysis.Analyzer`).
 - `com.google.mlkit:face-mesh-detection` (vì `FaceResult.faceMesh` là kiểu ML Kit `FaceMesh`).
 

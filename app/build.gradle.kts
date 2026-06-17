@@ -89,7 +89,9 @@ android {
 
 dependencies {
     // Core tính năng (face mesh + GL + render bọ). camera-core & mlkit lộ qua api(core).
-    implementation(project(":core"))
+    // Dùng package đã publish trên GitHub Packages (thay cho project(":core")) để test consume registry.
+    implementation("com.piontech.bugfilter:core:1.0.0")
+    // implementation(project(":core"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

@@ -2,7 +2,17 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.parcelize)
+    `maven-publish`
 }
+
+// ============================================================================
+//  Publish :core lên GitHub Packages (Maven). BẠN ĐẶT CỐ ĐỊNH 4 giá trị dưới đây:
+// ============================================================================
+val publishGroupId = "com.piontech.bugfilter"          // ← tên group của lib
+val publishArtifactId = "core"                         // ← tên artifact (lib) của bạn
+val publishVersion = "1.0.0"                           // ← version phát hành
+// OWNER/REPO của GitHub Packages (mặc định lấy theo repo hiện tại):
+val githubOwnerRepo = "duylt-dev/Filter-Bugz-Prank-Core"   // ← "owner/repo"
 
 android {
     namespace = "com.piontech.bugfilter.core"
@@ -40,6 +50,13 @@ android {
             }
         }
     }
+
+    // Tạo component "release" để maven-publish đóng gói AAR (kèm sources cho IDE của người dùng).
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
 }
 
 dependencies {
@@ -68,4 +85,36 @@ dependencies {
     androidTestImplementation(libs.androidx.benchmark.junit4)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.test.runner)
+}
+
+// component "release" của AGP được tạo trễ → cấu hình publication trong afterEvaluate.
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = publishGroupId
+                artifactId = publishArtifactId
+                version = publishVersion
+            }
+        }
+        repositories {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/$githubOwnerRepo")
+                // BẠN ĐẶT CỐ ĐỊNH username/token ở đây. KHUYẾN NGHỊ để trong ~/.gradle/gradle.properties
+                // (KHÔNG commit token vào repo — GitHub sẽ thu hồi token bị lộ):
+                //   gpr.user=<github-username>
+                //   gpr.key=<personal-access-token có quyền write:packages>
+                credentials {
+                    username = (findProperty("gpr.user") as String?)
+                        ?: System.getenv("GITHUB_ACTOR")
+                        ?: "<GITHUB_USERNAME>"
+                    password = (findProperty("gpr.key") as String?)
+                        ?: System.getenv("GITHUB_TOKEN")
+                        ?: "<GITHUB_TOKEN_write_packages>"
+                }
+            }
+        }
+    }
 }
